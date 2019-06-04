@@ -5,4 +5,4 @@ This project is designed for one to practice on the fundamentals of javascript, 
 - The purpose of this is to help understand control flow
 - Solidify my knowledge by doing
 - Holding myself accountable everyday to use git & code daily
-- A way to see my progress as I progress through school.
+- A way to see my progress as I progress through daily coding, challenges & projects.
