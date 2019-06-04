@@ -13,7 +13,8 @@ function triangle(n) {
   let tri = '';
 
   for (let i = 0; i < n; i++) {
-    console.log(tri += '#');
+    tri += '#';
+    console.log(tri);
   }
 }
 
