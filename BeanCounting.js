@@ -13,6 +13,9 @@ Rewrite countBs to make use of this new function.
 */
 // Your code here.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 76d1fb7... created two functions
 const countBs = (str) => {
   var count = 0;
   for (let i = 0; i < str.length; i++) {
@@ -32,8 +35,11 @@ const countChar = (str, char) => {
   }
   return count;
 }
+<<<<<<< HEAD
 =======
 >>>>>>> 23550ea... excersice BeanCounting
+=======
+>>>>>>> 76d1fb7... created two functions
 
 console.log(countBs("BBC"));
 // → 2
