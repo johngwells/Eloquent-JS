@@ -12,6 +12,25 @@ that indicates the character that is to be counted (rather than counting only up
 Rewrite countBs to make use of this new function.
 */
 // Your code here.
+const countBs = (str) => {
+  var count = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === 'B') {
+      count++;
+    }
+  }
+  return count;
+}
+
+const countChar = (str, char) => {
+  var count = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === char) {
+      count++
+    }
+  }
+  return count;
+}
 
 console.log(countBs("BBC"));
 // → 2
