@@ -1,4 +1,4 @@
-// Excersice - Recursion - the number is even or odd. Address negative numbers
+// Exercise - Recursion - the number is even or odd. Address negative numbers
 // as well as you can't use %
 
 function isEven(num) {
