@@ -15,6 +15,7 @@ Make sure it also works with negative step values so that range(5, 2, -1) produc
 function range(start, end, step) {
   let array = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
   var step = step || 1;
   // loop that creates numbers and add to the arrays
   for (let i = start; start <= end; start += step) {
@@ -22,15 +23,24 @@ function range(start, end, step) {
   // loop that creates numbers and add to the array
   for (var i = start; start <= end; start++) {
 >>>>>>> ff55e66... exercise sumOfRange
+=======
+  var step = step || 1;
+  // loop that creates numbers and add to the arrays
+  for (let i = start; start <= end; start += step) {
+>>>>>>> 2ff6996... complete bonus exercise
     array.push(start);
   }
   return array;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 console.log(range(1, 10));
 =======
 // console.log(range(1, 10));
 >>>>>>> ff55e66... exercise sumOfRange
+=======
+console.log(range(1, 10));
+>>>>>>> 2ff6996... complete bonus exercise
 
 // takes array of numbers & returns the sum
 function sum(array) {
