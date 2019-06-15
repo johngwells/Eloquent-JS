@@ -14,13 +14,14 @@ Make sure it also works with negative step values so that range(5, 2, -1) produc
 // returns an array containing all numbers start up to/and end
 function range(start, end, step) {
   let array = [];
-  // loop that creates numbers and add to the array
-  for (var i = start; start <= end; start++) {
+  var step = step || 1;
+  // loop that creates numbers and add to the arrays
+  for (let i = start; start <= end; start += step) {
     array.push(start);
   }
   return array;
 }
-// console.log(range(1, 10));
+console.log(range(1, 10));
 
 // takes array of numbers & returns the sum
 function sum(array) {
