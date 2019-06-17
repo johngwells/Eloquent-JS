@@ -15,11 +15,12 @@ function reverseArray(array) {
   return newArray;
 }
 
-// console.log(reverseArray([1, 2, 3, 4, 5]));
-// console.log(reverseArray(['if', 'maybe', 'so', 'never', 'yes']));
+console.log(reverseArray([1, 2, 3, 4, 5]));
+console.log(reverseArray(['if', 'maybe', 'so', 'never', 'yes']));
 
 // Exercise 2 - Array In
 function reverseArrayInPlace(array) {
+  // move through the loop until halfway point
   for (var i = 0; i <= Math.floor((array.length - 1) / 2); i++) {
     // set a variable equal to the first
     let firstElement = array[i];
