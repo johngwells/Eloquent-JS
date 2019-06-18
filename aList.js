@@ -6,6 +6,7 @@ the element to the front of the input list, and nth, which takes a list and a nu
 element at the given position in the list (with zero referring to the first element) or undefined when
 there is no such element.
 
+example:
 let list = {
   value: 1,
   rest: {
@@ -18,8 +19,19 @@ let list = {
 };
 */
 
+// builds a list structure like the example
 function arrayToList() {
 
+}
+
+// Produces an array from a list
+function listToArray() {
+
+}
+
+// Add a helper function prepend
+function prepend() {
+  
 }
 
 console.log(arrayToList([10, 20]));
